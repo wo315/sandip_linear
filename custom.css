@@ -110,11 +110,10 @@ CSS style adapted from https://github.com/barbagroup/CFDPython. Copyright (c) Ba
                     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
                     displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
                 },
-                fonts: ["Gyre-Pagella"],
-                    
+                                
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
-                    availableFonts: ["TeX"],
+                    availableFonts: ["Gyre-Pagella"],
                     scale: 100,
                     styles: {'.MathJax_Display': {"margin": 4}}
                 }
